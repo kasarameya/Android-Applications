@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/btn_start_quiz"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="#dad231"
+        android:padding="@dimen/dim_80"
+        android:text="@string/start_quiz"
+        android:textColor="@color/colorPrimaryDark" />
+
+    <RelativeLayout
+        android:id="@+id/rl_quiz"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/tv_timer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/dim_8dp"
+            android:background="#222"
+            android:padding="@dimen/dim_8dp"
+            android:text="0"
+            android:textColor="#fff"
+            android:textSize="@dimen/text_size_40" />
+
+        <TextView
+            android:id="@+id/tv_score"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_margin="@dimen/dim_8dp"
+            android:background="#cc58de"
+            android:padding="@dimen/dim_8dp"
+            android:text="0/0"
+            android:textSize="@dimen/text_32" />
+
+        <TextView
+            android:id="@+id/tv_question"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="@dimen/dim_8dp"
+            android:padding="@dimen/dim_8dp"
+            android:text="32 + 5"
+            android:textSize="27sp" />
+
+        <GridLayout
+            android:id="@+id/scrollView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_timer"
+            android:layout_marginTop="32dp">
+
+            <Button
+                android:id="@+id/btn_grid_1"
+                android:layout_column="0"
+                android:layout_columnWeight="1"
+                android:layout_gravity="fill"
+                android:layout_row="0"
+                android:layout_rowWeight="1"
+                android:background="#c5c6e1"
+                android:tag="0"
+                android:text="0"
+                android:textSize="@dimen/text_64" />
+
+            <Button
+                android:id="@+id/btn_grid_2"
+                android:layout_column="1"
+                android:layout_columnWeight="1"
+                android:layout_gravity="fill"
+                android:layout_row="0"
+                android:layout_rowWeight="1"
+                android:background="#b1dc31"
+                android:tag="1"
+                android:text="0"
+                android:textSize="@dimen/text_64" />
+
+            <Button
+                android:id="@+id/btn_grid_3"
+                android:layout_column="0"
+                android:layout_columnWeight="1"
+                android:layout_gravity="fill"
+                android:layout_row="1"
+                android:layout_rowWeight="1"
+                android:background="#c7d7051a"
+                android:tag="2"
+                android:text="0"
+                android:textSize="@dimen/text_64" />
+
+            <Button
+                android:id="@+id/btn_grid_4"
+                android:layout_column="1"
+                android:layout_columnWeight="1"
+                android:layout_gravity="fill"
+                android:layout_row="1"
+                android:layout_rowWeight="1"
+                android:background="#daf109"
+                android:tag="3"
+                android:text="0"
+                android:textSize="@dimen/text_64" />
+        </GridLayout>
+
+        <TextView
+            android:id="@+id/tv_result"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/scrollView"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="@dimen/dim_8dp"
+            android:padding="@dimen/dim_8dp"
+            android:textSize="@dimen/text_size_40" />
+
+        <Button
+            android:id="@+id/btn_play_again"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_result"
+            android:layout_centerHorizontal="true"
+            android:text="@string/play_again"
+            android:visibility="gone" />
+
+    </RelativeLayout>
+
+</RelativeLayout>
+
+
