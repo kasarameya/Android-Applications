@@ -1,0 +1,7 @@
+This is an Android Application that is used to display Images fetched from the Flickr website. The user can also search for specific images on the Flikr server.
+
+Features Implemented:-
+
+Consumption of RESTful webservices using gson and displaying it properly to the user.
+Implementation of Search feature.
+Animation implementaion
