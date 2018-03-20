@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp">
+
+<ImageView android:layout_margin="4dp"
+    android:layout_width="60dp"
+    android:layout_height="65dp"
+    android:src="@drawable/rm_profile_icon"
+    android:id="@+id/iv_contact_list_adapter_contact_picture"/>
+
+<TextView
+    android:text="Name"
+    android:layout_margin="5dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:hint="name"
+    android:id="@+id/tv_contact_list_adapter_name"
+    android:layout_toRightOf="@id/iv_contact_list_adapter_contact_picture"
+    android:textSize="15dp"
+    android:layout_marginLeft="10dp"/>
+
+    <TextView
+        android:text="Number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="number"
+        android:layout_margin="5dp"
+        android:id="@+id/tv_contact_list_adapter_number"
+        android:layout_below="@id/tv_contact_list_adapter_name"
+        android:layout_toRightOf="@id/iv_contact_list_adapter_contact_picture"
+        android:textSize="15dp"
+        android:layout_marginLeft="10dp"/>
+    <ImageView
+        android:layout_width="39dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/final_call_icon"
+        android:id="@+id/iv_contact_list_adapter_call_icon"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+
+</RelativeLayout>

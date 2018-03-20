@@ -1,0 +1,108 @@
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    >
+<LinearLayout  android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="@color/toolbar_color"
+    tools:context="com.example.s977975.applicattion.AddContact">
+
+    <include layout="@layout/rm_my_toolbar_layout"
+        android:id="@+id/add_contact_activity_tool_bar" />
+
+    <ImageView
+        android:layout_marginTop="30dp"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:id="@+id/iv_addContact_activity_contact_picture"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/rm_profile_icon"
+        android:layout_gravity="center_horizontal"
+       />
+
+    <EditText
+        android:layout_marginTop="30dp"
+        android:layout_width="280dp"
+        android:layout_height="35dp"
+        android:id="@+id/et_addContact_activity_name"
+        android:hint="Name   "
+        android:layout_below="@id/iv_addContact_activity_contact_picture"
+        android:inputType="text"
+        android:background="@drawable/edittext_bg"
+        android:layout_gravity="center_horizontal"
+        android:paddingLeft="8dp"
+        android:layout_marginBottom="10dp"/>
+
+    <EditText
+        android:layout_width="280dp"
+        android:layout_height="35dp"
+        android:id="@+id/et_addContact_activity_nickname"
+        android:hint="Nickname"
+        android:layout_below="@id/et_addContact_activity_name"
+        android:inputType="text"
+        android:background="@drawable/edittext_bg"
+        android:layout_marginBottom="10dp"
+        android:layout_gravity="center_horizontal"
+        android:paddingLeft="8dp"/>
+
+    <EditText
+        android:layout_width="280dp"
+        android:layout_height="35dp"
+        android:id="@+id/et_addContact_activity_email"
+        android:hint="Email Id"
+        android:paddingLeft="8dp"
+        android:background="@drawable/edittext_bg"
+        android:layout_marginBottom="10dp"
+        android:layout_below="@id/et_addContact_activity_nickname"
+        android:inputType="textEmailAddress"
+        android:layout_gravity="center_horizontal" />
+
+    <EditText
+        android:layout_width="280dp"
+        android:layout_height="35dp"
+        android:background="@drawable/edittext_bg"
+        android:layout_marginBottom="10dp"
+        android:id="@+id/et_addContact_activity_phone_number"
+        android:hint="Number"
+        android:layout_below="@id/et_addContact_activity_email"
+        android:inputType="number"
+        android:paddingLeft="8dp"
+        android:layout_gravity="center_horizontal" />
+
+
+    <EditText
+        android:layout_width="280dp"
+        android:background="@drawable/edittext_bg"
+        android:layout_marginBottom="10dp"
+        android:layout_height="35dp"
+        android:id="@+id/et_addContact_activity_address"
+        android:hint="Address   "
+        android:layout_below="@id/et_addContact_activity_phone_number"
+        android:inputType="text"
+        android:layout_gravity="center_horizontal"
+        android:paddingLeft="8dp"/>
+
+
+
+   <!-- <Button
+
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:text="Reset"
+        android:layout_marginTop="20dp"
+        android:id="@+id/btn_addContact_activity_reset"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/button_default_bg"
+        android:textColor="@android:color/white"/>
+        -->
+
+</LinearLayout>
+
+</ScrollView>
+

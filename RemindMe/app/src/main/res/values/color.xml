@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="teal_A600" type="color">#fff</item>
+    <item name="teal_50" type="color">#E0F2F1</item>
+    <item name="teal_100" type="color">#B2DFDB</item>
+    <item name="teal_200" type="color">#80CBC4</item>
+    <item name="teal_300" type="color">#4DB6AC</item>
+    <item name="teal_400" type="color">#26A69A</item>
+    <item name="teal_500" type="color">#009688</item>
+    <item name="teal_600" type="color">#00897B</item>
+    <item name="teal_700" type="color">#00796B</item>
+    <item name="teal_800" type="color">#00695C</item>
+    <item name="teal_900" type="color">#004D40</item>
+    <item name="teal_A100" type="color">#A7FFEB</item>
+    <item name="teal_A200" type="color">#64FFDA</item>
+    <item name="teal_A300" type="color">#1DE9B6</item>
+    <item name="teal_A400" type="color">#00BFA5</item>
+    <item name="teal_A500" type="color">#50C5B7</item>
+    <item name="teal_A700" type="color">#E0E0E0</item>
+    <item name="teal_A800" type="color">#9E9E9E</item>
+    <item name="teal_A900" type="color">#030202</item>
+
+
+        <color name="light_font">#FBFBFB</color>
+        <color name="grey_font">#ff9e9e9e</color>
+        <color name="text_shadow">#7F000000</color>
+        <color name="text_shadow_white">#FFFFFF</color>
+    <item name="toolbar_color" type="color">#ffffff</item>
+</resources>

@@ -1,0 +1,23 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.tcs.remindmeapplication.activities.RM_ContactList_Activity">
+    <!--<item
+        android:id="@+id/icon_contact_list_search"
+        android:icon="@android:drawable/ic_menu_search"
+        android:orderInCategory="99"
+        app:showAsAction="always"
+        android:title="Search"/>-->
+    <item android:id="@+id/icon_contact_list_search"
+        android:orderInCategory="98"
+        android:icon="@android:drawable/ic_menu_search"
+        app:showAsAction="always|collapseActionView"
+        android:title="search"
+        app:actionViewClass="android.support.v7.widget.SearchView" />
+    <item
+        android:id="@+id/icon_contact_list_add"
+        android:title="add"
+        android:orderInCategory="100"
+        app:showAsAction="always"
+        android:icon="@drawable/icon_add_friend_new"/>
+</menu>

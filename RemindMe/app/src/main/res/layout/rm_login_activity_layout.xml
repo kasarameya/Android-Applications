@@ -1,0 +1,83 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ScrollView04"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+<RelativeLayout
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="650dp"
+    tools:context=".MainActivity"
+    android:background="#26A69A">
+    <include layout="@layout/rm_my_toolbar_layout"
+        android:id="@+id/login_activity_tool_bar" />
+
+    <ImageView
+        android:layout_height="110dp"
+        android:layout_width="120dp"
+        android:id="@+id/login_profileimage"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/rm_profile_icon"
+        android:layout_marginTop="170dp"
+        />
+    <LinearLayout
+        android:layout_below="@id/login_profileimage"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        >
+
+
+        <EditText
+            android:id="@+id/et_username"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:background="@drawable/friend_detail_text_background"
+            android:padding="10dp"
+            android:alpha="0.7"
+            android:drawablePadding="5dp"
+            android:hint="User Id"
+            android:textColorHint="#cccccc"
+            android:drawableLeft="@drawable/icon_user_name_login"/>
+
+        <EditText
+
+            android:id="@+id/et_password"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:alpha="0.7"
+            android:background="@drawable/friend_detail_text_background"
+            android:layout_marginTop="5dp"
+            android:padding="10dp"
+            android:drawablePadding="5dp"
+            android:hint="Password"
+            android:textColorHint="#cccccc"
+            android:password="true"
+            android:drawableLeft="@drawable/icon_password_login"/>
+
+        <Button
+            android:id="@+id/btn_Login"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Log In"
+            style="@style/DefaultButtonText"
+            android:background="@drawable/button_default_bg"
+            />
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_switchuser"
+            android:layout_marginLeft="110dp"
+            android:layout_marginTop="10dp"
+            android:text="Switch User?"
+            android:textColor="@android:color/white"
+            />
+
+    </LinearLayout>
+
+</RelativeLayout>
+    </ScrollView>

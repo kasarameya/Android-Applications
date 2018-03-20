@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="@dimen/activity_vertical_margin"
+    android:id="@+id/popup">
+
+
+        <TextView
+            android:padding="2dp"
+            android:id="@+id/txtDate"
+            android:textSize="15sp"
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:background="@drawable/textview_add_activity"
+            android:text=" Time Reminder "
+            android:layout_marginLeft="20dp"
+            android:layout_alignTop="@+id/date"
+            android:layout_marginTop="15dp"
+            android:layout_alignParentLeft="true"/>
+
+        <Button
+            android:id="@+id/date"
+            android:layout_width="@dimen/activity_add"
+            android:layout_height="@dimen/activity_add"
+            android:background="@drawable/add_by_time_image"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="25dp"
+            android:layout_toRightOf="@id/txtDate" />
+
+
+        <TextView
+                android:textSize="15sp"
+                android:padding="2dp"
+                android:background="@drawable/textview_add_activity"
+                android:id="@+id/txtLocation"
+                android:layout_marginTop="46dp"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:text=" Location Reminder "
+                android:layout_below="@+id/date"/>
+
+        <Button
+            android:id="@+id/location"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/add_by_location_image"
+            android:layout_width="@dimen/activity_add"
+            android:layout_height="@dimen/activity_add"
+            android:layout_below="@id/date"
+            android:layout_toRightOf="@id/txtLocation" />
+
+</RelativeLayout>

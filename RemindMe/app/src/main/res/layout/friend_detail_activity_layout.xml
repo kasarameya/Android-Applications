@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="@color/teal_A700"
+    android:layout_height="match_parent">
+
+    <include layout="@layout/rm_my_toolbar_layout"
+        android:id="@+id/tb_friend_detail_activity"/>
+
+<FrameLayout
+    android:layout_marginTop="55dp"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="155dp">
+
+
+    <ImageView
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="30dp"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@id/tb_friend_detail_activity"
+        android:id="@+id/iv_friend_detail_activity_contact_picture"
+        android:src="@drawable/rm_profile_icon"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:scaleType="fitXY"
+        android:layout_height="match_parent"
+        android:alpha="0.3"
+        android:layout_below="@id/tb_friend_detail_activity"
+        android:id="@+id/backgroun_friend_detail_image"
+        android:src="@drawable/rm_profile_icon"/>
+</FrameLayout>
+    <RelativeLayout
+        android:layout_marginTop="215dp"
+        android:layout_width="match_parent"
+        android:layout_height="250dp">
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/teal_900"
+        android:padding="8dp"
+        android:gravity="center_vertical"
+        android:background="@drawable/friend_detail_text_background"
+        android:id="@+id/tv_friend_detail_activity_name_col"
+        android:layout_marginTop="20dp"
+        android:text="Name:"/>
+    <ImageButton
+        android:id="@+id/verticalline"
+        android:layout_width="1dip"
+        android:layout_height="30dp"
+        android:layout_marginTop="25dp"
+        android:adjustViewBounds="false"
+        android:background="@android:color/transparent"
+        android:clickable="false"
+        android:contentDescription=""
+        android:src="@color/teal_A700"
+        android:layout_marginLeft="100dp"        />
+
+    <TextView
+        android:layout_width="200dp"
+        android:layout_toRightOf="@id/tv_friend_detail_activity_name_col"
+        android:layout_height="40dp"
+        android:background="@drawable/friend_detail_text_background"
+        android:layout_marginTop="20dp"
+        android:id="@+id/tv_friend_detail_activity_name"
+        android:hint="Name:"
+        android:gravity="center_vertical"
+        android:textSize="16sp"/>
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/tv_friend_detail_activity_nick_name_col"
+        android:text="Nick name:"
+        android:padding="6dp"
+        android:textColor="@color/teal_900"
+        android:gravity="center_vertical"
+        android:background="@drawable/friend_detail_text_background"
+        android:textSize="16sp"
+        android:layout_below="@id/tv_friend_detail_activity_name"/>
+    <ImageButton
+        android:id="@+id/verticalline_1"
+        android:layout_width="1dip"
+        android:layout_height="28dp"
+        android:layout_marginTop="70dp"
+        android:adjustViewBounds="false"
+        android:background="@android:color/transparent"
+        android:clickable="false"
+        android:contentDescription=""
+        android:src="@color/teal_A700"
+        android:layout_marginLeft="100dp"        />
+
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:background="@drawable/friend_detail_text_background"
+        android:layout_toRightOf="@id/tv_friend_detail_activity_nick_name_col"
+        android:hint="Nick-name"
+        android:layout_below="@id/tv_friend_detail_activity_name"
+        android:textSize="16sp"
+        android:gravity="center_vertical"
+        android:id="@+id/tv_friend_detail_activity_nick_name"
+        />
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/tv_friend_detail_activity_email_col"
+        android:text="Email:"
+        android:padding="8dp"
+        android:textColor="@color/teal_900"
+        android:gravity="center_vertical"
+        android:background="@drawable/friend_detail_text_background"
+        android:textSize="16sp"
+        android:layout_below="@id/tv_friend_detail_activity_nick_name"/>
+    <ImageButton
+        android:id="@+id/verticalline_2"
+        android:layout_width="1dip"
+        android:layout_height="30dp"
+        android:layout_marginTop="115dp"
+        android:adjustViewBounds="false"
+        android:background="@android:color/transparent"
+        android:clickable="false"
+        android:contentDescription=""
+        android:src="@color/teal_A700"
+        android:layout_marginLeft="100dp"        />
+
+    <TextView
+        android:layout_below="@id/tv_friend_detail_activity_nick_name"
+        android:layout_width="200dp"
+        android:layout_toRightOf="@id/tv_friend_detail_activity_email_col"
+        android:layout_height="40dp"
+        android:background="@drawable/friend_detail_text_background"
+        android:textAlignment="center"
+        android:hint="Email"
+        android:gravity="center_vertical"
+        android:textSize="16sp"
+        android:id="@+id/tv_friend_detail_activity_email"/>
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:id="@+id/tv_friend_detail_activity_phone_number_col"
+        android:layout_marginLeft="10dp"
+        android:text="Phone no:"
+        android:textColor="@color/teal_900"
+        android:textSize="16sp"
+        android:padding="8dp"
+        android:background="@drawable/friend_detail_text_background"
+        android:gravity="center_vertical"
+        android:layout_below="@id/tv_friend_detail_activity_email"/>
+
+    <ImageButton
+        android:id="@+id/verticalline_3"
+        android:layout_width="1dip"
+        android:layout_height="30dp"
+        android:layout_marginTop="145dp"
+        android:adjustViewBounds="false"
+        android:background="@android:color/transparent"
+        android:clickable="false"
+        android:contentDescription=""
+        android:src="@color/teal_A700"
+        android:layout_marginLeft="100dp"        />
+
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_toRightOf="@id/tv_friend_detail_activity_phone_number_col"
+        android:id="@+id/tv_friend_detail_activity_phone_number"
+        android:hint="Phone Number"
+        android:textSize="16sp"
+        android:background="@drawable/friend_detail_text_background"
+        android:gravity="center_vertical"
+        android:layout_below="@id/tv_friend_detail_activity_email"
+        />
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:id="@+id/tv_friend_detail_activity_address_col"
+        android:layout_marginLeft="10dp"
+        android:text="Address:"
+        android:textSize="16sp"
+        android:textColor="@color/teal_900"
+        android:padding="8dp"
+        android:background="@drawable/friend_detail_text_background"
+        android:gravity="center_vertical"
+        android:layout_below="@id/tv_friend_detail_activity_phone_number"/>
+
+    <ImageButton
+        android:id="@+id/verticalline_4"
+        android:layout_width="1dip"
+        android:layout_height="30dp"
+        android:layout_marginTop="185dp"
+        android:adjustViewBounds="false"
+        android:background="@android:color/transparent"
+        android:clickable="false"
+        android:contentDescription=""
+        android:src="@color/teal_A700"
+        android:layout_marginLeft="100dp"/>
+
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_toRightOf="@id/tv_friend_detail_activity_address_col"
+        android:hint="Address"
+        android:background="@drawable/friend_detail_text_background"
+        android:id="@+id/tv_friend_detail_activity_address"
+        android:textSize="16sp"
+        android:gravity="center_vertical"
+        android:layout_below="@id/tv_friend_detail_activity_phone_number"
+        />
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\Ameya\Downloads\Android Udemy Projects\Last_Home_reMind\Last Home_reMind\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.0"
+        sha1="4fcf0b1879f8caf497c073e1432d398e9e2988c1">
+        <dex dex="C:\Users\Ameya\Downloads\Android Udemy Projects\Last_Home_reMind\Last Home_reMind\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-23.0.0_948506dee9dc4e56ec0d8af12297804a2e3d4f6f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Ameya\Downloads\Android Udemy Projects\Last_Home_reMind\Last Home_reMind\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.0"
+        sha1="8413c27b45b7fe61dca4a98159f65e2cee215f5a">
+        <dex dex="C:\Users\Ameya\Downloads\Android Udemy Projects\Last_Home_reMind\Last Home_reMind\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-23.0.0_eb6361fafb9c4e3765e7c434c428d51beaafb7cb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Ameya\Downloads\Android Udemy Projects\Last_Home_reMind\Last Home_reMind\app\libs\gson-2.4.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.0"
+        sha1="0695b63d702f505b9b916e02272e3b6381bade7f">
+        <dex dex="C:\Users\Ameya\Downloads\Android Udemy Projects\Last_Home_reMind\Last Home_reMind\app\build\intermediates\pre-dexed\debug\gson-2.4_6b29199f1dc1adda9b8cb90cdaba31b77121518a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Ameya\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.0.0\support-annotations-23.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.0"
+        sha1="990e7f98a7bad86a40b1f0bcfeb039023afd0839">
+        <dex dex="C:\Users\Ameya\Downloads\Android Udemy Projects\Last_Home_reMind\Last Home_reMind\app\build\intermediates\pre-dexed\debug\support-annotations-23.0.0_2b524f691bd8fbda730aa700f8f3c11ee2c0b2b4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Ameya\Downloads\Android Udemy Projects\Last_Home_reMind\Last Home_reMind\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.0\jars\libs\internal_impl-23.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.0"
+        sha1="8bd336eeae661e8311330284897ee07f8ebaa297">
+        <dex dex="C:\Users\Ameya\Downloads\Android Udemy Projects\Last_Home_reMind\Last Home_reMind\app\build\intermediates\pre-dexed\debug\internal_impl-23.0.0_ead74c5f16428e524a677908390db9803f4f2aba.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Ameya\Downloads\Android Udemy Projects\Last_Home_reMind\Last Home_reMind\app\build\intermediates\exploded-aar\com.android.support\design\23.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.0"
+        sha1="8a5238e4bdcd6568b82db669d41817de670586b8">
+        <dex dex="C:\Users\Ameya\Downloads\Android Udemy Projects\Last_Home_reMind\Last Home_reMind\app\build\intermediates\pre-dexed\debug\com.android.support-design-23.0.0_c7dddfb3e36b12b1e2ab9fb3beff30914bcbeb33.jar" />
+    </item>
+
+</items>

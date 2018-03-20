@@ -1,0 +1,62 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.tcs.remindmeapplication.activities.RM_AddTaskByLocation_Activity">
+    <include layout="@layout/rm_my_toolbar_layout"
+        android:id="@+id/add_location_activity_tool_bar" />
+
+
+    <ImageView
+        android:layout_below="@id/add_location_activity_tool_bar"
+        android:layout_width="match_parent"
+        android:id="@+id/imgBackground"
+        android:layout_height="150dp"
+        android:src="@drawable/add_location"/>
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="35dp"
+        android:id="@+id/et_addTaskByLocation_title"
+        android:layout_below="@id/imgBackground"
+        android:hint="Title Title"
+        android:paddingLeft="8dp"
+        android:background="@drawable/edittext_bg"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="10dp"/>
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="35dp"
+        android:id="@+id/et_addTaskByLocation_description"
+        android:layout_below="@id/et_addTaskByLocation_title"
+        android:layout_centerHorizontal="true"
+        android:hint="Task Description"
+        android:paddingLeft="8dp"
+        android:background="@drawable/edittext_bg"
+        android:layout_marginTop="5dp" />
+
+
+
+
+    <AutoCompleteTextView
+        android:background="@drawable/edittext_bg"
+        android:id="@+id/actv_addTaskByLocation_place"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:ems="10"
+        android:paddingLeft="8dp"
+        android:hint="AutoComplete TextView"
+        android:layout_marginTop="330dp"
+        android:layout_centerHorizontal="true">
+        <requestFocus />
+    </AutoCompleteTextView>
+
+</RelativeLayout>
+</ScrollView>

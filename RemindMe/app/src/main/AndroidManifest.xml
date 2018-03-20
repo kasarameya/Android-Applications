@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.tcs.remindmeapplication" >
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.DISABLE_KEYGUARD" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="com.android.alarm.permission.SET_ALARM" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <!--
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" ></application>
+    -->
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".activities.RM_Home_Activity"
+            android:label="Home" >
+
+        </activity>
+        <activity
+            android:name=".activities.RM_AddContact_Activity"
+            android:label="Add Contact" >
+        </activity>
+        <activity
+            android:name=".activities.RM_FriendDetail_Activity"
+            android:label="@string/title_activity_rm__friend_detail_" >
+        </activity>
+        <activity
+            android:name=".activities.RM_AddTaskByDate_Activity"
+            android:label="@string/title_activity_rm__add__task__by__date_activity" >
+        </activity>
+        <activity
+            android:name=".activities.RM_Alarm_Activity"
+            android:label="@string/title_activity_rm__alarm_" >
+        </activity>
+
+        <receiver android:name=".services.RM_AlarmReceiver" />
+        <receiver android:name=".services.RM_NotificationReceiver"/>
+        <service android:name=".services.RM_NotificationService"/>
+        <service
+            android:name=".services.MyServices"
+            android:enabled="true"
+            android:exported="true" />
+
+        <activity
+            android:name=".activities.RM_TaskDetails_Activity"
+            android:label="@string/title_activity_rm__task_details_" >
+        </activity>
+
+        <activity android:name=".activities.RM_Launch_Activity" android:label="Launch Activity"/>
+        <activity android:name=".activities.RM_Login_Activity" android:label="Login Activity"/>
+        <activity android:name=".activities.RM_Reset_Activity" android:label="Reset"/>
+        <activity android:name=".activities.RM_SetPassword_Activity" android:label="Set Password"/>
+        <activity android:name=".activities.RM_ContactList_Activity" android:label="Contact List"/>
+        <activity android:name=".activities.RM_DeleteAccount_Activity" android:label="Delete Account"/>
+        <activity
+            android:name=".activities.RM_AddTaskByLocation_Activity"
+            android:label="@string/title_activity_rm__add_task_by_location_" >
+        </activity>
+        <activity android:name=".activities.RM_SplashScreen_Activity" android:label="reMind Me">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

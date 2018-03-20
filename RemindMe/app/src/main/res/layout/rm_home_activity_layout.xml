@@ -1,0 +1,42 @@
+<RelativeLayout xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <include layout="@layout/rm_my_toolbar_layout" android:id="@+id/includeTb"/>
+
+    <android.support.v4.widget.DrawerLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/DrawerLId"
+        android:layout_below="@id/includeTb"
+        tools:context=".MainActivity">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/main_frag_container" />
+
+        <FrameLayout
+            android:id="@+id/nav_frag_container"
+            android:layout_width="240dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="start"
+            android:background="@drawable/unnamed_back_draw">
+        </FrameLayout>
+
+</android.support.v4.widget.DrawerLayout>
+    <ImageButton
+        android:layout_alignParentBottom="true"
+        android:id="@+id/show_popup"
+        android:background="@drawable/add_image"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="30dp"
+        android:layout_marginRight="10dp"
+        android:layout_width="@dimen/activity_add"
+        android:layout_height="@dimen/activity_add"
+        />
+</RelativeLayout>

@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.tcs.remindmeapplication.activities.RM_AddContact_Activity">
+
+    <item android:id="@+id/reset" android:title="@string/action_save"
+        android:orderInCategory="99" app:showAsAction="always"
+        android:icon="@drawable/icon_reset_friend_details_new"/>
+
+    <item android:id="@+id/action_save" android:title="@string/action_save"
+        android:orderInCategory="100" app:showAsAction="always"
+        android:icon="@drawable/icon_save_add_contact"/>
+
+
+
+
+</menu>

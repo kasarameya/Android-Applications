@@ -1,0 +1,64 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ScrollView02"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+<RelativeLayout
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="650dp"
+    android:background="@color/teal_A400"
+    tools:context="com.tcs.remindmeapplication.activities.RM_DeleteAccount_Activity">
+
+    <include layout="@layout/rm_my_toolbar_layout"
+        android:id="@+id/delete_activity_tool_bar"
+        />
+    <EditText
+        android:layout_marginTop="220dp"
+        android:layout_width="300dp"
+        android:layout_centerHorizontal="true"
+        android:layout_height="40dp"
+        android:alpha="0.8"
+        android:drawableLeft="@drawable/icon_delete_delete_activity"
+        android:background="@drawable/friend_detail_text_background"
+        android:id="@+id/et_DeleteAccount_userid"
+        android:textColorHint="@color/teal_A800"
+        android:hint="Enter User Id"
+        />
+    <EditText
+        android:layout_marginTop="5dp"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/friend_detail_text_background"
+        android:id="@+id/et_DeleteAccount_password"
+        android:hint="Enter Password"
+        android:inputType="textPassword"
+        android:alpha="0.8"
+        android:drawableLeft="@drawable/icon_delete_password_activity"
+        android:textColorHint="@color/teal_A800"
+        android:layout_below="@+id/et_DeleteAccount_userid"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/et_DeleteAccount_password"
+        android:id="@+id/tv_DeleteAccount_message"
+        android:alpha="0.8"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"
+        android:textColor="@android:color/holo_red_light"
+        android:layout_marginBottom="10dp"/>
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_DeleteAccount_deleteAccount"
+        android:layout_below="@+id/tv_DeleteAccount_message"
+        android:text="Delete Account"
+        android:layout_centerHorizontal="true"
+        style="@style/DefaultButtonText"
+        android:background="@drawable/button_default_bg"/>
+
+</RelativeLayout>
+</ScrollView>

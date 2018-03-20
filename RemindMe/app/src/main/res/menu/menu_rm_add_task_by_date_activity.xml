@@ -1,0 +1,10 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.hp_hp.ameya_remindme.RM_AddTaskByDate_Activity">
+
+    <item android:id="@+id/save_task"
+        android:title="Save"
+        android:icon="@drawable/icon_save_add_contact"
+        android:orderInCategory="100" app:showAsAction="ifRoom" />
+</menu>

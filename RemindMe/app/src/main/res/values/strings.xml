@@ -1,0 +1,96 @@
+<resources>
+    <string name="app_name">reMindMe Application</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_rmcontact_list">Contacts</string>
+    <string name="title_activity_rm__contact_list_">Contacts</string>
+    <string name="title_activity_rm__add_contact_">Add Contact</string>
+    <string name="action_save">action_save</string>
+    <string name="title_activity_rm__friend_detail_">Contact Detail</string>
+    <string name="action_delete">action_delete</string>
+    <string name="title_activity_rm__splash_screen">RM_SplashScreen</string>
+    <string name="title_activity_rm__set_password">RM_SetPasswordActivity</string>
+    <string name="title_activity_rm__login">RM_LoginActivity</string>
+    <string name="title_activity_rm__reset_">RM_Reset_Activity</string>
+    <string name="title_activity_rm__delete_account_">RM_DeleteAccount_Activity</string>
+    <string name="opendrawer">Close</string>
+    <string name="openddrawer">Open</string>
+    <string name="title_activity_rm__add__task__by__date_activity">Add Task</string>
+    <string name="title_activity_rm__alarm_">Alarm Screen</string>
+    <string name="Ringtone">Ringtone</string>
+
+    <style name="DefaultButtonText">
+            <item name="android:layout_width">match_parent</item>
+            <item name="android:layout_height">wrap_content</item>
+            <item name="android:textColor">#26A69A</item>
+            <item name="android:textStyle">normal</item>
+            <item name="android:textSize">20sp</item>
+            <item name="android:shadowDx">1</item>
+            <item name="android:shadowDy">1</item>
+            <item name="android:shadowRadius">1</item>
+        </style>
+    <style name="button_text" >
+        <item name="android:layout_width" >fill_parent</item>
+        <item name="android:layout_height" >wrap_content</item>
+        <item name="android:textColor" >#fff</item>
+        <item name="android:gravity" >center</item>
+        <item name="android:layout_margin" >3dp</item>
+        <item name="android:textSize" >20dp</item>
+        <item name="android:textStyle" >normal</item>
+        <item name="android:shadowColor" >#000000</item>
+        <item name="android:shadowDx" >1</item>
+        <item name="android:shadowDy" >1</item>
+        <item name="android:shadowRadius" >2</item>
+    </style>
+
+    <string name="title_activity_rm_launch_">RM_Launch_Activity</string>
+    <string name="title_activity_rm__basic_functionality_">RM_BasicFunctionality_Activity</string>
+    <string name="menu_search">Search..</string>
+    <string name="title_activity_rm__task_details_">Task Details</string>
+
+
+    <string name="notifyMe">Notify Me</string>
+    <string name="editTask_ringtone">Ringtone</string>
+    <string name="editTaskTime">Time</string>
+    <string name="editTaskDate">Date</string>
+    <string name="taskDetailsTitle">Task Title</string>
+    <string name="taskDetails_titleDescription">Task Description</string>
+    <string name="taskDetails_date">Date</string>
+    <string name="taskDetails_TIme">Time</string>
+    <string name="taskDetails_ringtone">Ringtone</string>
+    <string name="taskDetails_showDate">Date</string>
+    <string name="tv_taskDetails_timeShow">Time</string>
+    <string name="tv_taskDetails_ringtoneShow">Ringtone</string>
+    <string name="tv_taskDetails_showStatus">Status</string>
+    <string name="tv_taskDetails_Status">Status</string>
+    <string name="tv_taskDetails_showVibration">Vibration</string>
+    <string name="tv_taskDetails_VIbration">Vibration</string>
+    <string name="tv_taskDetails_notification">Notification</string>
+    <string name="tv_taskDetails_notificationShow">Notification</string>
+    <string name="et_addTaskbyDate_task_name">Task Name</string>
+    <string name="et_addTaskbyDate_task_description">Task Description</string>
+    <string name="tv_addTaskbyDate_date">Date</string>
+    <string name="tv_addTaskbyDate_time">Time</string>
+    <string name="tv_addTaskbyDate_ringtone">Ringtone</string>
+    <string name="cb_addTaskbyDate_notifyme">Notify Me</string>
+    <string name="cb_addTaskbyDate_vibration">Vibration</string>
+    <string name="tv_alarm_taskName">New Text</string>
+    <string name="tv_alarm_taskDescription">New Text</string>
+    <string name="button_alarm_stopTask">Stop</string>
+    <string name="tv_completed_task_name">Task Name</string>
+    <string name="tv_completed_task_date">Task Date</string>
+    <string name="tv_completed_task_time">New Text</string>
+    <string name="iv_navdrawer_userimage">Welcome, User</string>
+    <string name="nav_item_label">Large Text</string>
+    <string name="pending_task_name">Task Name</string>
+    <string name="pending_task_date">Task Date</string>
+    <string name="tv_pending_task_time">New Text</string>
+    <string name="save_task">Save</string>
+    <string name="markcomplete_task">Mark Completed</string>
+    <string name="edit_task">Edit</string>
+    <string name="delete_task">Delete</string>
+    <string name="save_task1">Save</string>
+    <string name="title_activity_rm__add_task_by_location_">Add Task Location</string>
+
+</resources>
